@@ -11,7 +11,7 @@ int main() {
 
         return 0;
 }
-
+//下面用for循环替换原本字符串
 string s = "  *\n"
 " ***\n"
 "*****\n";
@@ -22,3 +22,4 @@ int main() {
     }
     return 0;
 }
+
