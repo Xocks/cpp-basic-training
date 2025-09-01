@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // 使用 e 或 E 表示指数
+    double num1 = 1.23e5;    // 1.23 × 10^5 = 123000
+    double num2 = 4.56E-3;   // 4.56 × 10^-3 = 0.00456
+    float num3 = 7.89e2f;    // 7.89 × 10^2 = 789 (f表示float类型)
+    
+    cout << "num1 = " << num1 << endl;
+    cout << "num2 = " << num2 << endl;
+    cout << "num3 = " << num3 << endl;
+    
+    return 0;
+}
