@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cmath> // 包含数学函数
+
+int main() {
+    double base = 2.0;
+    double exponent = 3.0;
+    
+    // 使用 pow() 函数计算幂
+    double result = pow(base, exponent); // 2^3 = 8
+    cout << base << "的" << exponent << "次方 = " << result << endl;
+    
+    // 计算自然指数 e^x
+    double x = 1.0;
+    double exp_result = exp(x); // e^1 ≈ 2.71828
+    cout << "e的" << x << "次方 = " << exp_result << endl;
+    
+    return 0;
+}
