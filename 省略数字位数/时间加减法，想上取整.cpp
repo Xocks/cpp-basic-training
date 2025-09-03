@@ -21,4 +21,5 @@ int main() {
 
 	cout << setw(2) << setfill('0') << lasthours << ":" << setw(2) << setfill('0') << lastminutes;
 	return 0;
+
 }
