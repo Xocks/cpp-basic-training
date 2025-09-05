@@ -5,7 +5,7 @@ using namespace std;
 int main() {
 	int s, v;
 	cin >> s >> v;
-	int time = (s + v - 1) / v + 10;//用数学方法向上取整
+	int time = (s + v - 1) / v + 10;//用数学方法向上取整，这只能整数除法使用，浮点要用ceil
 	int hours = time / 60 ;
 	int minutes = time % 60 ;
 	
@@ -23,3 +23,4 @@ int main() {
 	return 0;
 
 }
+
